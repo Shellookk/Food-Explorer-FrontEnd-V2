@@ -4,6 +4,9 @@
 -O desafio final pra mim foi um pouco trabalhoso de se fazer por conta que eu não estava entendendo alguns conceitos, mesmo assistindo as aulas várias vezes.
 -Eu como junior consultei alguns devs mais experientes que ja concluiram o desafio e tambem consultei alguns repositórios PARA TIRAR DÚVIDAS.
 
+Projeto ao vivo:
+[Netlify]https://foodexplorershellookk.netlify.app/
+
 Figma do projeto:
 [Figma](https://www.figma.com/community/file/1196874589259687769/food-explorer-v2).
 
