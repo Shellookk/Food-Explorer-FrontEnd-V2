@@ -1,12 +1,10 @@
 import { Container } from "./styles"
-
 import { Back } from "../../components/Back"
 import { Input } from "../../components/Input"
 import { FormControl } from "../../components/FormControl"
 import { InputFile } from "../../components/InputFile"
 import { TextArea } from "../../components/TextArea"
 import { Button } from "../../components/Button"
-
 import sendImgage from "../../assets/send.svg"
 import { Option, Select } from "../../components/Select"
 import { Ingredients } from "../../components/Ingredients/indext"

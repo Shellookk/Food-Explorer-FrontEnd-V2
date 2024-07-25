@@ -1,14 +1,13 @@
 import styled, { css } from "styled-components";
 import { DEVICE_BREAKPOINTS } from "../../styles/deviceBreakpoints";
 
-export const Contianer = styled.div`
+export const Container = styled.div`
     height: 100vh;
     position: absolute;
     z-index: 6;
     
     width: 100%;
     opacity: 0;
-    /* display: none; */
     pointer-events: none;
 
     transition: .5s;
@@ -34,7 +33,6 @@ export const Contianer = styled.div`
     ${({ $isvisible }) => $isvisible && css`
         opacity: 1;
         pointer-events: auto;
-        /* display: block; */
         transform: translateX(0);
     `}
 
