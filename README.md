@@ -22,4 +22,4 @@ Figma do projeto:
 2. Abra o terminal na pasta do projeto e execute o comando `npm i` para instalar as dependências do projeto.
 3. Rode o comando `npm run dev` para executar o projeto em ambiente de desenvolvimento (a API utilizada será a que está em produção).
 
-OBS.: Para o projeto funcionar é necessário instalar o Git e NodeJs.
+OBS.: Para o projeto funcionar é necessário instalar o Git e NodeJs e seguir o passo a passo acima.
