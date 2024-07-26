@@ -1,9 +1,7 @@
 
 import { Button } from "../../components/Button";
 import { FormControl } from "../../components/FormControl";
-
 import { Container } from "./styles";
-
 import Logo from "../../assets/Logo.png"
 import { Input } from "../../components/Input";
 import { Link, useNavigate } from "react-router-dom";

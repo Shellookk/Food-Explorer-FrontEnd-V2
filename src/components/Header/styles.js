@@ -13,7 +13,6 @@ export const Container = styled.header`
         width: 100%;
 
         display: flex;
-        /* justify-content: space-between; */
         align-items: center;
         padding: 0 1.75rem;
 
@@ -34,9 +33,8 @@ export const Container = styled.header`
             display: none;
         }
 
-        div:nth-child(4) {  
-            
-            
+        div:nth-child(4) {
+        
             > button {
                 display: none;
             }

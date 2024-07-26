@@ -1,5 +1,4 @@
 import { Container } from "./styles";
-
 import footerImg from "../../assets/footer-img.png"
 
 export function Footer() {

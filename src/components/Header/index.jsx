@@ -1,20 +1,18 @@
-import { Container, Logo } from "./styles";
-
-import { Button } from "../Button";
-import { Search } from "../Search/Index";
+import { Container, Logo } from "./styles"
+import { Button } from "../Button"
+import { Search } from "../Search/Index"
 import { Requests } from "../Requests"
-
 import LogoImage from "../../assets/Logo.png"
 import MenuLogo from "../../assets/Menu.svg"
 import Close from "../../assets/Close.svg"
 import Receipt from "../../assets/Receipt.svg"
 import GoBack from "../../assets/goback.svg"
 
-import { useNavHook } from "../../hook/navHook";
-import { useAuth } from "../../hook/AuthHook";
-import { USER_ROLES } from "../../utils/roles";
-import { useNavigate } from "react-router-dom";
-import { useCartHook } from "../../hook/cartHook";
+import { useNavHook } from "../../hook/navHook"
+import { useAuth } from "../../hook/AuthHook"
+import { USER_ROLES } from "../../utils/roles"
+import { useNavigate } from "react-router-dom"
+import { useCartHook } from "../../hook/cartHook"
 
 export function Header() {
 
