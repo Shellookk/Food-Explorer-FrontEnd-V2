@@ -19,7 +19,6 @@ export const Content = styled.div`
 
     @media(min-width: ${DEVICE_BREAKPOINTS.MD}) {
         padding: 0 7.75rem;
-
         > div:nth-child(2) {
             padding-left: 0;
         }

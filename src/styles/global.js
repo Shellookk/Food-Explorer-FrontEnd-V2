@@ -15,6 +15,9 @@ export const GlobalStyle = createGlobalStyle`
         @media(max-width: ${DEVICE_BREAKPOINTS.MD}) {
             font-size: 16PX;
         }
+        @media(max-width: ${DEVICE_BREAKPOINTS.SM}) {
+            font-size: 12PX;
+        }
     }
 
     body {

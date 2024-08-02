@@ -37,8 +37,10 @@ export function Header() {
                 </button>
 
                 <Logo className={isVisible ? "hidden" : undefined}>
-                    <img src={LogoImage} alt="Logo"/>
-                    <span className={user.role !== USER_ROLES.ADMIN ? "hidden" : undefined}>admin</span>
+                    <a href="/">
+                        <img src={LogoImage} alt="Logo"/>
+                        <span className={user.role !== USER_ROLES.ADMIN ? "hidden" : undefined}>admin</span>
+                    </a>
                 </Logo>
 
                 <Search />
