@@ -33,7 +33,6 @@ export const Container = styled.div`
                 "tag tag tag tag tag price"
                 "area area area area area area"
                 ". . . . . button";
-            /* grid-template-rows: ; */
 
         }
 

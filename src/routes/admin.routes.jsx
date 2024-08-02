@@ -1,11 +1,11 @@
 //importações
-import { Details } from "../pages/Details";
-import { Route, Routes } from "react-router-dom";
-import { Layout } from "./layout";
-import { Admin } from "../pages/Admin";
-import { NotFound } from "../pages/NotFound";
-import { New } from "../pages/New";
-import { Home } from "../pages/Home";
+import { Details } from "../pages/Details"
+import { Route, Routes } from "react-router-dom"
+import { Layout } from "./layout"
+import { Admin } from "../pages/Admin"
+import { NotFound } from "../pages/NotFound"
+import { New } from "../pages/New"
+import { Home } from "../pages/Home"
 
 export function AdminRoutes() {
     return (

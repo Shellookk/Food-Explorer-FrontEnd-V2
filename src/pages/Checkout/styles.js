@@ -12,7 +12,6 @@ export const Container = styled.div`
 
         > div {
             display: flex;
-            /* align-items: center; */
             flex-direction: column;
             gap: 1.5rem;
 

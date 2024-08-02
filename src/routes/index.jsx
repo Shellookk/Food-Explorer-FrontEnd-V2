@@ -1,12 +1,12 @@
 //importações
-import { BrowserRouter } from "react-router-dom";
-import { CustomerRoutes } from "./customer.routes";
-import { AuthRoutes } from "./auth.routes";
-import { USER_ROLES } from "../utils/roles";
-import { AdminRoutes } from "./admin.routes";
-import { useAuth } from "../hook/AuthHook";
-import { useEffect } from "react";
-import { api } from "../services/api";
+import { BrowserRouter } from "react-router-dom"
+import { CustomerRoutes } from "./customer.routes"
+import { AuthRoutes } from "./auth.routes"
+import { USER_ROLES } from "../utils/roles"
+import { AdminRoutes } from "./admin.routes"
+import { useAuth } from "../hook/AuthHook"
+import { useEffect } from "react"
+import { api } from "../services/api"
 
 export function Routes() {
 

@@ -10,7 +10,7 @@ import { Option, Select } from "../../components/Select"
 import { Ingredients } from "../../components/Ingredients/indext"
 import { IngredientsItem } from "../../components/IngredientsItem"
 import { useEffect, useState } from "react"
-import { Form, useNavigate, useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 import { api } from "../../services/api"
 
 export function New() {
@@ -232,8 +232,6 @@ export function New() {
                 )}
 
             </form>
-
-
         </Container>
     )
 }

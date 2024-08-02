@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react";
-import { Container, Content } from "./styles";
-import { SwiperSlide } from "swiper/react";
-import { Banner } from "../../components/Banner";
-import { Section } from "../../components/Section";
-import { Card } from "../../components/Card";
-import { api } from "../../services/api";
-import { useSearchHook } from "../../hook/searchHook";
-import { SwipperComponent } from "../../components/Swipper";
+import React, { useEffect, useState } from "react"
+import { Container, Content } from "./styles"
+import { SwiperSlide } from "swiper/react"
+import { Banner } from "../../components/Banner"
+import { Section } from "../../components/Section"
+import { Card } from "../../components/Card"
+import { api } from "../../services/api"
+import { useSearchHook } from "../../hook/searchHook"
+import { SwipperComponent } from "../../components/Swipper"
 
 export function Home() {
     const [data, setData] = useState([]);

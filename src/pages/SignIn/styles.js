@@ -13,12 +13,10 @@ export const Container = styled.div`
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* align-items: center; */
 
         width: 19.75rem;
 
         > img {
-            /* width: 278px; */
             margin-bottom: 4.5rem;
         }
 
@@ -42,7 +40,6 @@ export const Container = styled.div`
 
         > div {
             flex-direction: row;
-            /* justify-content: space-between; */
             
             gap: 18.75rem;
             align-items: center;

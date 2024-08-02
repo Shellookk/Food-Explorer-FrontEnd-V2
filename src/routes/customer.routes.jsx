@@ -1,10 +1,10 @@
 //importações
-import { Route, Routes } from "react-router-dom";
-import { Home } from "../pages/Home";
-import { Details } from "../pages/Details"; 
-import { Layout } from "./layout";
-import { NotFound } from "../pages/NotFound";
-import { Checkout } from "../pages/Checkout";
+import { Route, Routes } from "react-router-dom"
+import { Home } from "../pages/Home"
+import { Details } from "../pages/Details"
+import { Layout } from "./layout"
+import { NotFound } from "../pages/NotFound"
+import { Checkout } from "../pages/Checkout"
 
 export function CustomerRoutes() {
     return (

@@ -43,7 +43,6 @@ export const Container = styled.div`
 
         > div {
             flex-direction: row;
-            /* justify-content: space-between; */
             
             gap: 18.75rem;
             align-items: center;
