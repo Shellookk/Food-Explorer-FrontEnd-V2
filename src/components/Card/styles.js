@@ -51,11 +51,6 @@ export const Container = styled.div`
             height: 176px;
         }
 
-        /* > span:nth-child(3) {
-            font-weight: bold;
-            font-size: 1.5rem;
-        } */
-
         > span:nth-child(3) {
             font-size: 1.5rem;
         }
@@ -80,7 +75,6 @@ export const Info = styled(Link)`
 
     > p {
         text-align: center;
-        /* display: inline; */
         display: none;
     }
 
